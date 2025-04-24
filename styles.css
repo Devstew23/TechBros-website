@@ -278,7 +278,7 @@ form input[type="submit"]:hover {
     align-items: flex-start;
   }
 
-  .nav-bar ul {
+  .nav-bar nav ul {
     flex-direction: row;      /* 👈 side-by-side */
     flex-wrap: wrap;          /* 👈 allows wrapping to new lines */
     gap: 0.5rem;
@@ -290,7 +290,7 @@ form input[type="submit"]:hover {
     display: flex;
   }
 
-  .nav-bar li {
+  .nav-bar nav li {
     flex: 1 1 auto;
     text-align: center;
   }
