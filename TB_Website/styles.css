@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #0a0c3f;
+  padding: 1rem 2rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: url('Assets/stockhero.jpg') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: maroon;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.hero a {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #e23b3b;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.services {
+  padding: 2rem;
+  text-align: center;
+}
+
+.services p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.checks {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-img {
+  flex: 1;
+}
+
+.about-img img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.micro-soldering {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.micro-soldering p {
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f5f5f5;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #555;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+  background-color: #0d0c2b;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar a.active {
+  color: #00c8ff;
+}
+
+.services-header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+.services-list {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.service-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.service-item h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+footer {
+  background-color: #0d0c2b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+form input[type="submit"] {
+  background-color: #e23b3b;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #c03030;
+}
+.services-grid {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 45%;
+}
+
+.service-item,
+.repair-item {
+  background-color: #f8f8f8;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    flex-direction: column;
+  }
+
+  .column {
+    flex: 1 1 100%;
+  }
+}
