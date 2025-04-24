@@ -275,7 +275,7 @@ form input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .nav-bar ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     position: relative;
     background-color: #0d0c2b;
