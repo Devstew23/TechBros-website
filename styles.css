@@ -286,7 +286,7 @@ form input[type="submit"]:hover {
     display: none; /* Hide by default */
   }
 
-  .nav-bar.active ul {
+  /*.nav-bar.active ul {
     display: flex;
   }
 
@@ -295,7 +295,7 @@ form input[type="submit"]:hover {
     cursor: pointer;
   }
 }
-/* Hide hamburger toggle by default */
+/* Hide hamburger toggle by default 
 .nav-toggle {
   display: none;
 }
@@ -307,7 +307,7 @@ form input[type="submit"]:hover {
   }
 
   .nav-toggle {
-    display: block; /* show hamburger icon on mobile */
+    display: block; /* show hamburger icon on mobile 
     font-size: 1.5rem;
   }
-}
+}*/
