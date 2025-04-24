@@ -228,10 +228,7 @@ form input[type="submit"]:hover {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px) {
-  .services-grid {
-    flex-direction: column;
-  }
+
 
   .column {
     flex: 1 1 100%;
