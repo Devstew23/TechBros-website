@@ -291,7 +291,7 @@ form input[type="submit"]:hover {
 }
 
 
-  /*.nav-bar.active ul {
+  .nav-bar.active ul {
     display: flex;
   }
 
@@ -300,7 +300,7 @@ form input[type="submit"]:hover {
     cursor: pointer;
   }
 }
-/* Hide hamburger toggle by default 
+ 
 .nav-toggle {
   display: none;
 }
@@ -312,7 +312,7 @@ form input[type="submit"]:hover {
   }
 
   .nav-toggle {
-    display: block; /* show hamburger icon on mobile 
+    display: block; 
     font-size: 1.5rem;
   }
-}*/
+}
